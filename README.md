@@ -1,10 +1,10 @@
-## SALES_ANALYSIS_PROJECT
+# SALES_ANALYSIS_PROJECT
 
-#INTRODUCTION
+## INTRODUCTION
 
 This is an analysis of a dataset of a Sales company, within 2017- 2019. The full dataset was gotten from Six CSV files namely:  Sales_Power_Pivot, Employee_Lookup, Customer_Lookup, Product_Lookup, Store_Lookup, and Calendar. These files were modeled and connected using the PowerPivot in Microsoft excel. This was a project given to us in a bootcamp I attended. 
 
-#AIMS AND OBJECTIVES OF THE PROJECT
+## AIMS AND OBJECTIVES OF THE PROJECT
 
 In other to help the Company assess its performance, suggest better ways to improve and maximize its potentials. The following will be determined:
 1.	KPI: Sum of Revenue realized, Sum of quantity sold, Total number of Customer, Best Revenue Product, Most sold Product
@@ -15,19 +15,44 @@ In other to help the Company assess its performance, suggest better ways to impr
 6.	Best Five Staff by Revenue
 7.	Best Five Customer by Revenue
 
-#DATA SOURCE
+## DATA SOURCE
 
 This Dataset was gotten from the Data Analytics Boot Camp, but originally sourced from Kaggle.
 
-#DATA TRANSFORMATION
+## DATA TRANSFORMATION
 
 Just as usual the ETL process was carried out, after the Six files have been downloaded, the files were imported one after the other into Power Query after which necessary cleaning and adjustment was carried out. The files were loaded into Power Pivot where the Star Schema model was built for it, with one to many relationship. The sale file has the many relationships while other files have one. Reports were generated from the model.
 
-#ANALYSIS AND DISCOVERY
+## ANALYSIS AND DISCOVERY
 
-![](Screenshot (5))
+![] (Screenshot (5).png)
 
-This is the sum of the revenue made within the period covered. i.e 2017-2019
-DASHBOARD
-OBSERVATION
-RECOMMENDATION
+This is the sum of the revenue made within the period covered. i.e the total amount of money made from 2017-2019.
+
+
+This is the total amount of product sold within the period covered.
+
+This is the total ampunt of Customer the Company had within the period covered.
+
+This is the best revenue product that yielded the highest revenue in the Company.
+
+This is the most sold product that is often bought by the Customers.
+
+Revenue by Transaction time Hour. It was observed that revenue is highest within 10, 9, and 8 hours respectively. while within 1-5 is the lowest.
+
+for the Order and Revenue by store it shows thats Store 8 has the highest rate of Order and Revenue. While Store 5 has the lowest.
+
+
+## DASHBOARD
+## RECOMMENDATION
+According to the above stated Reports and Analysis, the following will therefore be recommended:
+
+1) Earl Grey Rg should be well stocked as there is much demand for it.
+2) More attention should be paid to the company activities within 10, 9, and 8 hours as this is when the highest are made,.
+3) Customers that are 25 and 40 years old should be given product Gifts as they are the highest, in order to encourage and appreciate them.
+4) Best Five Staff should be rewarded in order to motivate them.
+5) Order should be worked upon in other to increase revenue.
+
+
+
+
